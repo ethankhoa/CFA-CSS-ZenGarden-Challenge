@@ -1,0 +1,149 @@
+
+
+body {
+
+background: #E8D0B4 url('waves_in_sea.jpg') no-repeat 50% 350px;
+background-repeat: no-repeat;
+background-position: bottom;
+background-attachment: fixed;
+font-family: "Courier New", serif;
+
+}
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.page-wrapper {
+  position: absolute;
+  background-color: #E8D0B4
+  display: block;
+  border: 1px solid;
+  top: 25px;
+  right: 500px;
+  left: 400px;
+  width: calc(350px + 5px);
+  max-height: 850px;
+  margin: 0;
+  padding-top: 1px;
+  /*background: #abc;*/
+  overflow-y: auto;
+  overflow-x: visible;;
+  -webkit-transform: rotate(-90deg) translateY(-350px);
+          transform: rotate(-90deg) translateY(-350px);
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+}
+
+
+
+.page-wrapper section#zen-intro {
+  display: block;
+  border: 2px solid gray;
+  padding: 25px;
+  background: #D5CEB2;
+  -webkit-transform: rotate(90deg) translateX(350px);
+          transform: rotate(90deg) translateX(350px);
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+}
+
+
+
+/*.page-wrapper > section > div {
+  display: block;
+  border: 2px solid gray;
+  padding: 25px;
+  background: #D5CEB2;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+}*/
+
+
+.page-wrapper > div > div {
+  display: block;
+  border: 2px solid gray;
+  padding: 25px;
+  background: #D5CEB2;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+}
+
+.page-wrapper > div > div > div {
+  display: block;
+  border: 2px solid gray;
+  padding: 25px;
+  background: #D5CEB2;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+}
+
+.page-wrapper > aside {
+  display: block;
+  border: 2px solid gray;
+  padding: 25px;
+  background: #D5CEB2;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+}
+
+.page-wrapper > div > div#zen-preamble.preamble {
+  display: block;
+  padding: 25px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+}
+
+.squares {
+  padding: 350px 0 0 0;
+  border: 2px solid gray;
+}
+
+.squares #header.intro {
+  width: 350px;
+  height: 450px;
+  margin: 10px 0;
+}
+
+.squares section#zen-intro.intro {
+  width: 350px;
+  height: 450px;
+  margin: 10px 0;
+}
+
+.squares div#zen-preamble.preamble {
+  width: 350px;
+  height: 450px;
+  margin: 10px 0;
+}
+
+.squares > div > div{
+  width: 350px;
+  height: 450px;
+  margin: 10px 0;
+}
+
+.squares > aside {
+  width: 350px;
+  height: 450px;
+  margin: 10px 0;
+}
